@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- If each test class contains more than 1 test method, add ' group-by-instances="true" 
+	' to the suite tag -->
+<suite name="Suite1" parallel="tests">
+	<test name="Test1">
+		<classes>
+			<class name="Assigment.TestNG" />
+		</classes>
+	</test>
+</suite>
